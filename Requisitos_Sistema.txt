@@ -1,31 +1,35 @@
 Requisitos Funcionais:
-'Apenas Usuários Comuns'
+'Apenas Usuários Anônimos'
 -------------------------------------------
 DCU01-Cadastrar Usuário
-DCU02-Autenticar Email
+DCU02-Enviar Código de Confirmação
+DCU03-Confirmar Código
+DCU04-Logar Usuário
 -------------------------------------------
 'Usuários Comuns e Administradores'
 -------------------------------------------
-DCU03-Logar Usuário
-DCU04-Postar no Painel
-DCU05-Postar Texto
-DCU06-Postar Foto
-DCU07-Excluir Postagem
-DCU08-Favoritar Postagem
-DCU09-Pesquisar Usuário
-DCU10-Visualizar Postagem de Outro Usuário
-DCU11-Favoritar Usuário
-DCU12-Acessar Favoritos
-DCU13-Acessar Usuários Favoritos
-DCU14-Acessar Postagens Favoritas
-DCU15-Visualizar Informações
-DCU16-Editar Informações
-DCU17-Excluir Conta
+DCU05-Postar no Painel
+DCU06-Postar Texto
+DCU07-Postar Foto
+DCU08-Excluir Postagem
+DCU09-Favoritar Postagem
+DCU10-Pesquisar Usuário
+DCU11-Visualizar Perfil de Outro Usuário
+DCU12-Favoritar Usuário
+DCU13-Acessar Favoritos
+DCU14-Acessar Usuários Favoritos
+DCU15-Acessar Postagens Favoritas
+DCU16-Visualizar Informações
+DCU17-Editar Informações
+-------------------------------------------
+'Apenas Usuários Comuns'
+-------------------------------------------
+DCU18-Excluir Conta
 -------------------------------------------
 'Apenas Administradores'
 -------------------------------------------
-DCU18-Excluir Postagem de Usuários
-DCU19-Bloquear Perfis de Usuários
+DCU19-Excluir Postagem de Usuários
+DCU20-Bloquear Perfis de Usuários
 -------------------------------------------
 Requisitos Não Funcionais:
 1.Desempenho
