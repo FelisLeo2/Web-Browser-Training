@@ -1,0 +1,57 @@
+Requisitos Funcionais:
+'Apenas Usuários Comuns'
+-------------------------------------------
+DCU01-Cadastrar Usuário
+DCU02-Autenticar Email
+-------------------------------------------
+'Usuários Comuns e Administradores'
+-------------------------------------------
+DCU03-Logar Usuário
+DCU04-Postar no Painel
+DCU05-Postar Texto
+DCU06-Postar Foto
+DCU07-Excluir Postagem
+DCU08-Favoritar Postagem
+DCU09-Pesquisar Usuário
+DCU10-Visualizar Postagem de Outro Usuário
+DCU11-Favoritar Usuário
+DCU12-Acessar Favoritos
+DCU13-Acessar Usuários Favoritos
+DCU14-Acessar Postagens Favoritas
+DCU15-Visualizar Informações
+DCU16-Editar Informações
+DCU17-Excluir Conta
+-------------------------------------------
+'Apenas Administradores'
+-------------------------------------------
+DCU18-Excluir Postagem de Usuários
+DCU19-Bloquear Perfis de Usuários
+-------------------------------------------
+Requisitos Não Funcionais:
+1.Desempenho
+2.Segurança
+3.Usabilidade
+4.Manutenibilidade
+5.Confiabilidade
+6.Compatibilidade
+7.Privacidade
+8.Eficiência
+-------------------------------------------
+Regras de Negócio:
+RN01: Um usuário só pode se cadastrar no sistema utilizando um email válido e único. Emails duplicados não serão permitidos no sistema.
+RN02: O sistema deve enviar um email de verificação após o cadastro do usuário, e o usuário precisa confirmar o email para ativar a conta.
+RN03: Um usuário só pode acessar o sistema após ter validado o seu email. Caso contrário, o login será bloqueado.
+RN04: O usuário não terá limites de tentativa para se logar.
+RN05: Um usuário autenticado pode excluir apenas suas próprias postagens. Um administrador pode excluir qualquer postagem.
+RN06: Postagens podem conter texto de no máximo 5.000 caracteres.
+RN07: O tamanho máximo permitido para fotos postadas é de 5 MB.
+RN08: Cada usuário pode favoritar quantas postagens e quantos usuários quiser.
+RN09: O sistema deve garantir que um usuário não possa favoritar suas próprias postagens ou a si mesmo como usuário.
+RN10: Apenas usuários autenticados podem criar e excluir postagens, ver perfil e favoritar.
+RN11: Usuários bloqueados ou suspensos não devem aparecer nos resultados de pesquisa.
+RN12: Usuários podem editar suas próprias informações, exceto email, que só pode ser alterado mediante uma nova autenticação por email.
+RN13: Quando um usuário solicita a exclusão da conta, todas as postagens e favoritos devem ser excluídos permanentemente do sistema imediatamente.
+RN14: Apenas administradores têm permissão para bloquear perfis de usuários e excluir postagens de terceiros.
+RN15: Todas as ações administrativas (como excluir postagens de usuários ou bloquear perfis) devem ser registradas em um log para auditoria, com data, hora e o responsável pela ação.
+RN16: O sistema deve forçar o uso de senhas fortes, com no mínimo 8 caracteres, incluindo letras, números e símbolos.
+RN17: Usuários anônimos podem apenas ver postagens e pesquisar.
